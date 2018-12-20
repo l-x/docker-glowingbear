@@ -1,6 +1,6 @@
 FROM nginx:1-alpine
 
-ENV GLOWINGBEAR_VERSION=0.7.0
+ENV GLOWINGBEAR_VERSION=0.7.1
 
 RUN \
     apk update && apk upgrade && \
